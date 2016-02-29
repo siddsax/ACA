@@ -1,0 +1,47 @@
+#####################################################################
+##########################Scrabble Cheater###########################
+#####################################################################
+#######################FORMAT of input###############################
+####python scrabble.py filename_of_dictionary.txt letters_you_got####
+#####################################################################
+
+import sys 
+strs=(sys.argv) #Taking all the arguments given on command prompt in a list of strings
+if len(strs)!=3:  #length of string if not 3 then there are not enough arguments
+ print "error not suffecient arguments"
+ sys.exit()
+word=strs[2] #the 3rd argument on command prompt is the given word 
+letters=list(word.lower()) #converting the word to a list of letters
+
+scores = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
+         "f": 4, "i": 1, "h": 4, "k": 5, "j": 8, "m": 3,
+         "l": 1, "o": 1, "n": 1, "q": 10, "p": 3, "s": 1,
+         "r": 1, "u": 1, "t": 1, "w": 4, "v": 4, "y": 4,
+         "x": 8, "z": 10} #dict data type to store scores of individual letters
+
+letsml=letters #list of all letters in rack
+letsml.sort  #sorting all the letters we have
+f=open (strs[1],'r') #open the file containing the list of all legimitable words i.e. a dictionary
+string =f.read()  #read each and every word and store it in a string
+s = string.split('\n')  #that string is brocken down in words
+i=0
+score=0 #initial score is zero
+while (i<len(s)): #itrating through each and every word
+ wordl=list(s[i].lower()) #converting letters of the words in small and storing it letterwise in list
+ k=0
+ y=0
+ j=0
+ wordl.sort #sorting all the letters of a given word
+ while((k<len(wordl))and(j<len(letters))): #till we are in limits
+   if(wordl[k]==letters[j]): #if words match
+     #update the indices and the score of current word
+     y+=scores[wordl[k]]
+     k+=1
+     j+=1 
+   else: 
+     j+=1   #this means we are moving onn in the list letters
+ if(k==len(wordl)): #if we were able to reach the end of the list of the letters of the given word the words matched
+   score+=y #updating the total score
+   print s[i]   #prints the word now 
+ i+=1 #iterate to next word
+print score #print the total score
