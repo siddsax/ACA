@@ -29,19 +29,17 @@ score=0 #initial score is zero
 while (i<len(s)): #itrating through each and every word
  wordl=list(s[i].lower()) #converting letters of the words in small and storing it letterwise in list
  k=0
- y=0
+ score=0
  j=0
  wordl.sort #sorting all the letters of a given word
  while((k<len(wordl))and(j<len(letters))): #till we are in limits
    if(wordl[k]==letters[j]): #if words match
      #update the indices and the score of current word
-     y+=scores[wordl[k]]
+     score+=scores[wordl[k]]
      k+=1
      j+=1 
    else: 
      j+=1   #this means we are moving onn in the list letters
- if(k==len(wordl)): #if we were able to reach the end of the list of the letters of the given word the words matched
-   score+=y #updating the total score
-   print s[i]   #prints the word now 
+ if(k==len(wordl)): #if we were able to reach the end of the list of the letters of the given word the words matches
+   print s[i]+" "+score #prints the word now and its score 
  i+=1 #iterate to next word
-print score #print the total score
