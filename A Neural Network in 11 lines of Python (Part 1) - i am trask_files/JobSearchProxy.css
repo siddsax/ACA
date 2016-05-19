@@ -1,0 +1,517 @@
+﻿.xmns_distroph .jobSearchResultDiv  
+{
+    clear:both; 
+    font-size:11px; 
+    margin:0; 
+    padding:0; 
+    text-align:left;
+    line-height:normal;
+    word-wrap: break-word;
+}
+.xmns_distroph #jobSearchResult table { width:100%; color: #333333; }
+.xmns_distroph #jobSearchResult table thead th { font-weight: bold; text-align:left; }
+.xmns_distroph #jobSearchResult table thead th .headText { white-space: nowrap; padding: 0.7em 0.33em 0.33em 0.33em; }
+.xmns_distroph .jobSearchResultDiv th { background:url("http://media.newjobs.com/mm/redux/alliances/Global/gridHrow.gif") repeat-x scroll 0 0 transparent; height:30px; margin:0; padding:0; border-right: 1px solid #FFFFFF; }
+.xmns_distroph .jobSearchResultDiv td { border-right:1px solid #FFFFFF; height:30px; overflow:hidden; word-wrap:break-word;}
+.xmns_distroph #jobSearchResult #columnDate { width:65px; }
+.xmns_distroph #jobSearchResult #columnCompany { width: 150px; }
+.xmns_distroph #jobSearchResult #columnLocation { width: 150px; border-right: none; }
+.xmns_distroph #jobSearchResult table td .cellDataDate { text-align: center; }
+.xmns_distroph #jobSearchResult table td .cellDataJobTitle { margin-left: 5px; }
+.xmns_distroph #jobSearchResult table td .cellDataJobTitle a { color: #75825E; }
+.xmns_distroph #jobSearchResult table td .cellDataCompany { margin-left: 5px; }
+.xmns_distroph #jobSearchResult table td .cellDataLocation { margin-left: 5px; }
+.xmns_distroph #jobSearchResult table tr.rowOdd td { background-color:#F4EFF7; }
+.xmns_distroph #jobSearchResult table tr.bold td { font-weight: bold; }
+
+.xmns_distroph #resultCountLabel { color: #707070; font-size: 10px; font-weight: bold; padding: 5px; }
+.xmns_distroph p.MsearchWarningMsg { color:#FF413E; font-weight:bold; }
+.xmns_distroph ul.locationHints { padding-left: 15px; margin-bottom: 15px; }
+.xmns_distroph ul.locationHints li { list-style-type: none; }
+.xmns_distroph ul.locationHints a { color: #78825D; background: url("http://media.newjobs.com/mm/redux/alliances/Global/roundListButton.gif") no-repeat scroll 0 3px transparent; padding-left: 13px; }
+
+.xmns_distroph a.search-button 
+{
+    display:block;
+    background-image:url(http://media.newjobs.com/id/distro/neutral/search.png);
+    background-repeat:no-repeat;
+    width:39px;
+    height:34px;
+    float:right;
+}
+
+.xmns_distroph a.search-button:hover
+{
+    background-position:-78px 0px;
+    text-decoration:none;
+}
+
+/*
+.xmns_distroph .form
+{
+    height:60px;
+    width:100%;
+}
+
+.xmns_distroph .trakEnabled
+{
+    height:124px !important;
+}
+*/
+
+.xmns_distroph .innerForm
+{
+    margin-top: 0;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.xmns_distroph .trakForm
+{
+    width:100%;
+    height:28px;
+    line-height:28px;
+    clear:both;
+}
+
+.xmns_distroph .trakFormInner
+{
+    margin-top:5px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.xmns_distroph .trakCategories
+{
+   background-color:white; 
+   float:right; 
+   border: 1px solid #C3C3C3; 
+   height:25px;
+   line-height:25px;
+   text-indent:10px;
+   overflow:hidden;
+}
+
+.xmns_distro_TrakCategoriesDiv
+{
+    background-color:White;
+    border: 1px solid #C3C3C3;
+    line-height:25px;
+    text-align:left;
+}
+
+.xmns_distro_TrakCategoriesDiv .trakCategoriesInner 
+{
+    margin-top:5px !important;
+    margin-left:5px !important;
+    margin-right:5px !important;
+}
+
+.xmns_distro_TrakCategoriesDiv .bottom
+{
+    width:100%;
+    background-color:#C3C3C3;
+    text-align:center;
+    height:25px;
+}
+
+.xmns_distroph .trakFormInner .lc 
+{
+    float:left;
+    width:75px;
+}
+
+.xmns_distroph .trakFormInner .il,
+.xmns_distroph .trakFormInner .lc 
+{
+    font-weight:bold;
+    color:White;
+}
+
+.xmns_distroph .b2 
+{
+    width:30px;
+    text-align:center;
+    line-height:34px;
+    color:White;
+}
+
+ .xmns_distroph .b1,
+ .xmns_distroph .b2,   
+ .xmns_distroph .b3 
+ {
+     float:left;
+ }
+ 
+.xmns_distroph .keywords,
+.xmns_distroph .location
+{
+    display:block;
+    width:100%;
+} 
+
+.xmns_distroph .keywords, .xmns_distroph .location
+{
+    height:34px;
+    line-height:34px;
+    border: 1px solid #C3C3C3;
+    text-indent:10px;
+}
+
+.xmns_distroph div,
+.xmns_distroph dl,
+.xmns_distroph dt,
+.xmns_distroph dd,
+.xmns_distroph ul,
+.xmns_distroph ol,
+.xmns_distroph li,
+.xmns_distroph h1,
+.xmns_distroph h2,
+.xmns_distroph h3,
+.xmns_distroph h4,
+.xmns_distroph h5,
+.xmns_distroph h6,
+.xmns_distroph pre,
+.xmns_distroph code,
+.xmns_distroph form,
+.xmns_distroph fieldset,
+.xmns_distroph legend,
+.xmns_distroph input,
+.xmns_distroph table,
+.xmns_distroph textarea,
+.xmns_distroph p,
+.xmns_distroph blockquote,
+.xmns_distroph th,
+.xmns_distroph td,
+.xmns_distroph img  
+{
+    margin:0;
+    padding:0; 
+}
+.xmns_distroph img  
+{
+    border:0 none; 
+    background:none;
+    box-shadow:none;
+}
+.xmns_distroph table { border-collapse:collapse; border-spacing:0; }
+.xmns_distroph p, .xmns_distroph table { margin-bottom: 1em; }
+.xmns_distroph a { text-decoration:none; color:#8C8B8B; }
+.xmns_distroph a:hover { color:#FF9900; text-decoration:underline; }
+
+.xmns_distro_LocationDiv
+{
+    height:300px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    z-index:9999;
+    background-color:White;
+    border:1px solid #c3c3c3;
+    font-family:Arial,Helvetica,Sans-Serif !important;
+    font-size:11px !important;
+    font-weight:normal !important;
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+.xmns_distro_LocationDiv div
+{
+    line-height:20px;
+    cursor:pointer;
+    padding-left:10px !important;
+}
+
+.xmns_distroph
+{
+    font-family:Arial,Helvetica,Sans-Serif !important;
+}
+
+.xmns_distroph tr
+{
+    font-size:11px;
+}
+
+.xmns_distroph .fnt11 {
+    color: #333333;
+    cursor: default;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.xmns_distroph .fnt11 a, .xmns_distroph a.fnt11 {
+    color: #0D51AB;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.xmns_distroph .fnt11 a:visited, .xmns_distroph a.fnt11:visited {
+    color: #AE7CDD;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.xmns_distroph .fnt11 a:hover, .xmns_distroph a.fnt11:hover {
+    color: #0D51AB;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.xmns_distroph .fnt16 {
+    color: #0E774A;
+    cursor: default;
+    font-size: 13px;
+    font-weight: normal;
+}
+.xmns_distroph .fnt16 a, .xmns_distroph a.fnt16 {
+    color: #0E774A;
+    cursor: pointer;
+    text-decoration: none;
+}
+.xmns_distroph .fnt16 a:visited, .xmns_distroph a.fnt16:visited {
+    color: #AE7CDD;
+    cursor: pointer;
+    text-decoration: none;
+}
+.xmns_distroph .fnt16 a:hover, .xmns_distroph a.fnt16:hover {
+    color: #0E774A;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.xmns_distroph .fnt4, .monsterBrowseLink.fnt4 {
+    color: #333333;
+    cursor: default;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 17px;
+    font-family:Arial,Helvetica,Sans-Serif !important;
+}
+.xmns_distroph .fnt4 a, .xmns_distroph a.fnt4, #monsterBrowseLink.fnt4, .monsterBrowseLink.fnt4 {
+    color: #0D51AB;
+    cursor: pointer;
+    text-decoration: none;
+}
+.xmns_distroph .fnt4 a:visited, .xmns_distroph a.fnt4:visited, .monsterBrowseLink.fnt4:visited {
+    color: #AE7CDD;
+    cursor: pointer;
+    text-decoration: none;
+}
+.xmns_distroph .fnt4 a:hover, .xmns_distroph a.fnt4:hover, #monsterBrowseLink.fnt4:hover {
+    color: #0D51AB;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.xmns_distroph .fnt8
+{
+    color: #673695;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.xmns_distroph .glbBtn:hover {
+    text-decoration: none !important;
+}
+
+.xmns_distroph .glbBtn {
+    background-color: #EEEEEE;
+    background-image: url("http://media.newjobs.com/id/distro/neutral/button.png");
+    background-repeat: no-repeat;
+    border-right: 1px solid #BBBBBB;
+    cursor: pointer;
+    display: inline-block;
+}
+.xmns_distroph span.glbBtn:hover, .xmns_distroph a.glbBtn:hover, .xmns_distroph span.glbBtn:hover input {
+    color: #893CD1;
+}
+.xmns_distroph span.glbBtn:active, .xmns_distroph a.glbBtn:active {
+    color: #673695;
+}
+.xmns_distroph span.glbBtn.glbBtnDisabled, .xmns_distroph a.glbBtn.glbBtnDisabled, .xmns_distroph .glbBtnDisabled input {
+    color: #999999 !important;
+    cursor: default;
+}
+.xmns_distroph .glbBtnA, .xmns_distroph span.glbBtnA.glbBtnDisabled:active, .xmns_distroph a.glbBtnA.glbBtnDisabled:active {
+    background-position: 0 -90px;
+    height: 16px;
+    margin: 0;
+    padding: 5px 8px;
+}
+.xmns_distroph span.glbBtnA:active, .xmns_distroph a.glbBtnA:active, .xmns_distroph a.glbBtnA:focus {
+    background-position: 0 -116px;
+}
+
+.xmns_distroph .form300x250 .innerCustomForm { margin-left:20px; margin-right:20px; }
+.xmns_distroph .form300x250 .f0 { width:100%; height:1px; clear:both; }
+.xmns_distroph .form300x250 .f1  
+{
+    margin-top:9px; 
+    color: White; 
+    font-size:16px; 
+    font-weight:bold; 
+}
+.xmns_distroph .form300x250 .f1 img
+{
+    position:relative; 
+    top:1px;
+}
+
+.xmns_distroph .form300x250 .f1 a { padding-left: 5px; }
+.xmns_distroph .form300x250 .f2 { margin-top:13px; }
+.xmns_distroph .form300x250 .f4 { margin-top:11px; }
+.xmns_distroph .form300x250 .f2, .xmns_distroph .form300x250 .f4
+{
+    color:White; 
+    font-size:13px;
+}
+
+.xmns_distroph .form300x250 .f6
+{ 
+    margin-top:21px;
+    color:White; 
+    font-size:16px;
+}
+
+.xmns_distroph .form300x250 .f3,.xmns_distroph .form300x250 .f5
+{
+    margin-top:7px;
+}
+
+.xmns_distroph .form180x150 .innerCustomForm { margin-left:5px; margin-right:5px; }
+.xmns_distroph .form180x150 .f0 { width:100%; height:1px; clear:both; }
+.xmns_distroph .form180x150 .f1  
+{
+    margin-top:5px;
+    color: White; 
+    font-size:9px; 
+    font-weight:normal; 
+}
+.xmns_distroph .form180x150 .f1 a { padding-left: 5px; }
+
+.xmns_distroph .form180x150 .f1 img
+{
+    position:relative; 
+    top:1px;
+}
+
+.xmns_distroph .form180x150 .location, .xmns_distroph .form180x150 .keywords 
+{
+    height:24px;
+    line-height:24px;
+}
+
+.xmns_distroph .form180x150 .f2, .xmns_distroph .form180x150 .f3
+{
+    margin-top:7px;
+}
+
+.xmns_distroph .form180x150 .f4
+{
+    margin-top:7px;
+    text-align:center;
+}
+
+.xmns_distroph .formTrak300 { overflow:hidden; }
+.xmns_distroph .formTrak300 .innerCustomForm { margin-left:20px; margin-right:20px; }
+.xmns_distroph .formTrak300 .f0 { width:100%; height:1px; clear:both; }
+.xmns_distroph .formTrak300 .f1 { margin-top:13px; }
+.xmns_distroph .formTrak300 .f3 { margin-top:11px; }
+.xmns_distroph .formTrak300 .f5 { margin-top:11px; }
+.xmns_distroph .formTrak300 .f1, .xmns_distroph .formTrak300 .f3,
+.xmns_distroph .formTrak300 .f5
+{
+    color:White; 
+    font-size:13px;
+}
+
+.xmns_distroph .formTrak300 .f7
+{ 
+    margin-top:21px;
+    color:White; 
+    font-size:16px;
+}
+
+.xmns_distroph .formTrak300 .f8
+{
+    margin-top:14px;
+}
+
+.xmns_distroph .formTrak300 .trakCategories 
+{
+    float:none !important;
+    height:34px;
+    line-height:34px;
+}
+
+.xmns_distroph .formTrak300 .f2,.xmns_distroph .formTrak300 .f4, .xmns_distroph .formTrak300 .f6
+{
+    margin-top:7px;
+}
+
+.xmns_distroph .activeTab, .xmns_distroph .inactiveTab
+{
+    cursor:pointer;
+    width:122px;
+    height:40px;
+    float:left;
+}
+
+.xmns_distroph .secondTab
+{
+    margin-left:16px;
+}
+
+.xmns_distroph .activeTab 
+{
+    background-color:#CCCCCC;
+}
+
+.xmns_distroph .activeTab .wrapper1
+{
+    width:121px;
+    height:40px;
+    position:relative;
+    left:1px;
+    background-color:White;
+}
+
+.xmns_distroph .activeTab .wrapper2
+{
+    width:120px;
+    height:40px;
+    position:relative;
+    left:1px;
+    background:url(http://media.newjobs.com/id/distro/neutral/grad-tab.png);
+    background-repeat:repeat-x;
+    line-height:40px;
+    text-align:center;
+}
+
+
+.xmns_distroph .inactiveTab
+{
+    background-color:#F7F7F7;
+    line-height:40px;
+    text-align:center;    
+} 
+
+.xmns_distroph .tabBorder
+{
+    border:5px solid #dddddd;
+    padding-left:5px;
+}
+
+.xmns_distroph .trakTabs
+{
+    margin-left:10px;
+}
+
+.xmns_distroph .tabSpacer, .xmns_distroph .formBottom
+{
+    height:10px;
+    width:100%;
+}
