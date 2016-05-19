@@ -10,7 +10,9 @@ Intro to Machine Learning:Sentimental Analysis and Face Recognition
 
 + Spam Classifier 
     - Identifies the spam and ham by Naive Bayes by making all the necessary functions from scratch 
+    
 + Face Recognition using Eigenfaces in Matlab
+
 + Handwriting Detection 
     - Walkthrough using the MNIST Dataset using Neural Networks
     - Using Stochastic Gradient Descent and Backpropagation
