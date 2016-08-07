@@ -1,5 +1,5 @@
 input_dir = 'C:\Users\Siddhartha\Documents\MATLAB\images';
-image_dims = [592, 896];
+image_dims = [100, 150];
 input_dir = 'C:\Users\Siddhartha\Documents\MATLAB\images\';
 test_dir = 'C:\Users\Siddhartha\Documents\MATLAB\images\test';
 test_img = 'image_0449.jpg';
