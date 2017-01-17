@@ -62,7 +62,7 @@ def document_probability(self, features, label):
     p = 1
     for feature in features:
         p *= self.weighted_probability(feature, label)
-    ret000urn p
+    return p
 ##### The final step is to weight the probabilities of the individual features by the overall probability that a document has a given label.
 
  def probability(self, features, label):
